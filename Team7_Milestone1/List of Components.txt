@@ -1,0 +1,12 @@
+Click on this google document link to view List of Components: 
+
+https://docs.google.com/document/d/1kI1mi9QmemujaEB03-UH-Da2NxfSLekhoQBnkeWSOn0/edit
+
+//////////////////////////////////////////////////////////////
+
+Includes: 
+-List of Components
+-Quantities 
+-Price Ranges
+-Total Prices
+-Availability/Places
