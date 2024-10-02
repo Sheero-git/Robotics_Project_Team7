@@ -1,0 +1,11 @@
+Click Link to Access Gantt Chart/ Project Flow in google sheets: 
+
+https://docs.google.com/spreadsheets/d/1tESu6gsQfZrPBAN1HjCEHjJhu0TE26VvJZQNLtf7U84/edit?usp=sharing
+
+///////////////////////////////////////////////////////////////////////////
+
+Includes: 
+
+-Division of Project Phases 
+-Estimated Times 
+-Proposed Tasks per Project Phase
