@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="mokhito">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0502961285085432 -0.070563222724223 0.0507191020015088"
+        rpy="0 0 0" />
+      <mass
+        value="0.127868158652868" />
+      <inertia
+        ixx="0.000129988544316549"
+        ixy="6.34202227427256E-06"
+        ixz="-5.73960066901982E-07"
+        iyy="0.000123973091794445"
+        iyz="9.07437414744153E-07"
+        izz="0.000203784108129403" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mokhito/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.250980392156863 0.250980392156863 0.250980392156863 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mokhito/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link1">
+    <inertial>
+      <origin
+        xyz="-7.5007685562678E-08 0.0125350268488061 0.0233608533917927"
+        rpy="0 0 0" />
+      <mass
+        value="0.123597949408144" />
+      <inertia
+        ixx="7.65097457829189E-05"
+        ixy="2.77795261606809E-10"
+        ixz="6.6765460654889E-11"
+        iyy="8.3288391246862E-05"
+        iyz="-7.68878521041027E-06"
+        izz="7.65397019717082E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mokhito/meshes/Link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mokhito/meshes/Link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint1"
+    type="continuous">
+    <origin
+      xyz="-0.0520277439177293 -0.0678255172812337 0.0781521980886112"
+      rpy="0 0 1.5707963267949" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link1" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Link2">
+    <inertial>
+      <origin
+        xyz="0.0038209232860969 0.0698992883445148 0.0103084562243501"
+        rpy="0 0 0" />
+      <mass
+        value="0.137984760165473" />
+      <inertia
+        ixx="0.000411792326942772"
+        ixy="-2.08261478665792E-05"
+        ixz="1.76346583386291E-10"
+        iyy="3.19736530466511E-05"
+        iyz="-3.44512669083525E-09"
+        izz="0.000431686770088529" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mokhito/meshes/Link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mokhito/meshes/Link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint2"
+    type="continuous">
+    <origin
+      xyz="0 0 0.0435500000000015"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="Link1" />
+    <child
+      link="Link2" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Link3">
+    <inertial>
+      <origin
+        xyz="0.0467109620064447 3.44425859567718E-05 -0.016321596185651"
+        rpy="0 0 0" />
+      <mass
+        value="0.148919911442922" />
+      <inertia
+        ixx="3.09471000399113E-05"
+        ixy="-2.3936491459896E-07"
+        ixz="6.68098645847862E-07"
+        iyy="0.000120351847748869"
+        iyz="2.43472967570217E-08"
+        izz="0.000130448622212812" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mokhito/meshes/Link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mokhito/meshes/Link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint3"
+    type="continuous">
+    <origin
+      xyz="0.00764208484451164 0.139791267750278 0"
+      rpy="0 0 1.58634444009034" />
+    <parent
+      link="Link2" />
+    <child
+      link="Link3" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="Gripper">
+    <inertial>
+      <origin
+        xyz="0.0336362734651396 0.00540689468259023 -0.00401309907836821"
+        rpy="0 0 0" />
+      <mass
+        value="0.0523674782653383" />
+      <inertia
+        ixx="5.31859840936312E-06"
+        ixy="-8.43714429011427E-07"
+        ixz="4.52591100775091E-07"
+        iyy="1.24951294919319E-05"
+        iyz="3.71779316716598E-08"
+        izz="9.48856978502958E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mokhito/meshes/Gripper.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mokhito/meshes/Gripper.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint4"
+    type="continuous">
+    <origin
+      xyz="0.134100000000004 0.000353979969758569 0"
+      rpy="-0.0245233381074276 -0.00151760690316946 -0.061792989795138" />
+    <parent
+      link="Link3" />
+    <child
+      link="Gripper" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+</robot>
